@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right,red,pink);
+    height: 100vh;
+}
+.box{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    width: 40%;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute;
+    padding: 70px 30px;
+
+
+
+}
+.userimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -50PX;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+
+
+}
+.box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.box input[ type="text"],
+.box input[ type="Password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.box input[type="submit"]
+{
+    border: none;
+    margin: 10px;
+    outline: none;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+}
+.sub
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background:green;
+    color: #fff;
+}
+.ros{
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+a{
+    color: blue;
+    
+}
